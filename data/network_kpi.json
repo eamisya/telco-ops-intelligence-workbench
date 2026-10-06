@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2026-10-06T10:15:00",
+    "node_id": "PGW-02",
+    "domain": "PACKET_CORE",
+    "cpu_utilization": 92.4,
+    "memory_utilization": 81.2,
+    "latency_ms": 142,
+    "packet_loss_pct": 2.8,
+    "active_sessions": 482100,
+    "traffic_gbps": 8.7,
+    "gtp_failure_rate_pct": 3.4
+  },
+  {
+    "timestamp": "2026-10-06T11:05:00",
+    "node_id": "MME-01",
+    "domain": "EPC_CONTROL",
+    "cpu_utilization": 98.1,
+    "memory_utilization": 75.0,
+    "attach_success_rate_pct": 72.5,
+    "paging_success_rate_pct": 68.4,
+    "active_subscribers": 1250000,
+    "s1ap_message_rate": 45000
+  },
+  {
+    "timestamp": "2026-10-06T12:30:00",
+    "node_id": "MSS-01",
+    "domain": "CS_CORE",
+    "cpu_utilization": 45.2,
+    "memory_utilization": 50.1,
+    "call_setup_success_rate_pct": 58.4,
+    "answer_seizure_ratio_pct": 32.1,
+    "ss7_link_utilization": 99.5
+  },
+  {
+    "timestamp": "2026-10-06T12:30:00",
+    "node_id": "MGW-03",
+    "domain": "CS_CORE",
+    "dsp_utilization_pct": 89.4,
+    "ip_jitter_ms": 45,
+    "dropped_calls": 1250
+  },
+  {
+    "timestamp": "2026-10-06T14:10:00",
+    "node_id": "HLR-01",
+    "domain": "SDM_CORE",
+    "cpu_utilization": 99.9,
+    "db_transaction_latency_ms": 4500,
+    "auth_success_rate_pct": 14.2,
+    "location_update_success_rate_pct": 18.5
+  },
+  {
+    "timestamp": "2026-10-06T15:20:00",
+    "node_id": "PE-RTR-04",
+    "domain": "TRANSPORT_IPMPLS",
+    "bgp_session_drops": 14,
+    "interface_utilization_pct": 0.0,
+    "latency_ms": -1,
+    "packet_loss_pct": 100.0
+  },
+  {
+    "timestamp": "2026-10-06T15:21:00",
+    "node_id": "RAN-AGG-02",
+    "domain": "RAN_TRANSPORT",
+    "active_enodebs": 0,
+    "s1_setup_failures": 1250,
+    "throughput_mbps": 0.0
+  },
+  {
+    "timestamp": "2026-10-06T16:05:00",
+    "node_id": "DRA-01",
+    "domain": "EPC_CONTROL",
+    "message_drop_rate_pct": 15.4,
+    "gx_latency_ms": 2500,
+    "gy_latency_ms": 3100,
+    "tps": 85000
+  },
+  {
+    "timestamp": "2026-10-06T16:05:00",
+    "node_id": "PCRF-01",
+    "domain": "POLICY_CORE",
+    "cpu_utilization": 96.5,
+    "db_query_latency_ms": 450
+  },
+  {
+    "timestamp": "2026-10-06T16:06:00",
+    "node_id": "PGW-01",
+    "domain": "PACKET_CORE",
+    "session_creation_failure_rate_pct": 28.5,
+    "active_sessions": 850000
+  }
+]

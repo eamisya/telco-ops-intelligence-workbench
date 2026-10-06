@@ -1,0 +1,55 @@
+[
+  {
+    "service_id": "MOBILE_DATA",
+    "status": "DEGRADED",
+    "dependencies": [
+      "PGW",
+      "SGW",
+      "MME"
+    ]
+  },
+  {
+    "service_id": "VOLTE_SIGNALING",
+    "status": "DOWN",
+    "dependencies": [
+      "MME",
+      "HSS",
+      "IMS"
+    ]
+  },
+  {
+    "service_id": "VOICE_CS",
+    "status": "DEGRADED",
+    "dependencies": [
+      "MSS",
+      "MGW",
+      "HLR"
+    ]
+  },
+  {
+    "service_id": "SUBSCRIBER_AUTH",
+    "status": "DOWN",
+    "dependencies": [
+      "HLR",
+      "HSS"
+    ]
+  },
+  {
+    "service_id": "RAN_CONNECTIVITY",
+    "status": "DOWN",
+    "dependencies": [
+      "PE-RTR",
+      "RAN-AGG",
+      "eNodeB"
+    ]
+  },
+  {
+    "service_id": "POLICY_CHARGING",
+    "status": "DEGRADED",
+    "dependencies": [
+      "DRA",
+      "PCRF",
+      "OCS"
+    ]
+  }
+]

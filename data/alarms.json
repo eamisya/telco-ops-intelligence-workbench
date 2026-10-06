@@ -1,0 +1,121 @@
+[
+  {
+    "alarm_id": "ALM-001",
+    "timestamp": "2026-10-06T10:15:00",
+    "node_id": "PGW-02",
+    "severity": "MAJOR",
+    "type": "RESOURCE_PRESSURE"
+  },
+  {
+    "alarm_id": "ALM-002",
+    "timestamp": "2026-10-06T11:04:00",
+    "node_id": "MME-01",
+    "severity": "CRITICAL",
+    "type": "OVERLOAD_PROTECTION_ACTIVE"
+  },
+  {
+    "alarm_id": "ALM-003",
+    "timestamp": "2026-10-06T11:05:00",
+    "node_id": "MME-01",
+    "severity": "MAJOR",
+    "type": "S1AP_LINK_CONGESTION"
+  },
+  {
+    "alarm_id": "ALM-004",
+    "timestamp": "2026-10-06T12:29:00",
+    "node_id": "MSS-01",
+    "severity": "CRITICAL",
+    "type": "SS7_LINK_DOWN"
+  },
+  {
+    "alarm_id": "ALM-005",
+    "timestamp": "2026-10-06T12:30:00",
+    "node_id": "MGW-03",
+    "severity": "MAJOR",
+    "type": "TDM_TRUNK_DEGRADED"
+  },
+  {
+    "alarm_id": "ALM-006",
+    "timestamp": "2026-10-06T12:32:00",
+    "node_id": "MSS-01",
+    "severity": "MAJOR",
+    "type": "ROUTE_CONGESTION"
+  },
+  {
+    "alarm_id": "ALM-007",
+    "timestamp": "2026-10-06T14:08:00",
+    "node_id": "HLR-01",
+    "severity": "CRITICAL",
+    "type": "DB_SYNC_FAILURE"
+  },
+  {
+    "alarm_id": "ALM-008",
+    "timestamp": "2026-10-06T14:10:00",
+    "node_id": "MME-02",
+    "severity": "MAJOR",
+    "type": "DIAMETER_TIMEOUT"
+  },
+  {
+    "alarm_id": "ALM-009",
+    "timestamp": "2026-10-06T14:11:00",
+    "node_id": "MSS-02",
+    "severity": "MAJOR",
+    "type": "MAP_TIMEOUT"
+  },
+  {
+    "alarm_id": "ALM-010",
+    "timestamp": "2026-10-06T15:19:55",
+    "node_id": "PE-RTR-04",
+    "severity": "CRITICAL",
+    "type": "LINK_FAILURE_OPTICAL"
+  },
+  {
+    "alarm_id": "ALM-011",
+    "timestamp": "2026-10-06T15:20:05",
+    "node_id": "PE-RTR-04",
+    "severity": "MAJOR",
+    "type": "BGP_PEER_DOWN"
+  },
+  {
+    "alarm_id": "ALM-012",
+    "timestamp": "2026-10-06T15:21:00",
+    "node_id": "RAN-AGG-02",
+    "severity": "CRITICAL",
+    "type": "S1_UNREACHABLE"
+  },
+  {
+    "alarm_id": "ALM-013",
+    "timestamp": "2026-10-06T16:04:00",
+    "node_id": "DRA-01",
+    "severity": "MAJOR",
+    "type": "DIAMETER_ROUTE_UNAVAILABLE"
+  },
+  {
+    "alarm_id": "ALM-014",
+    "timestamp": "2026-10-06T16:05:00",
+    "node_id": "DRA-01",
+    "severity": "MAJOR",
+    "type": "DIAMETER_TOO_BUSY"
+  },
+  {
+    "alarm_id": "ALM-015",
+    "timestamp": "2026-10-06T16:05:30",
+    "node_id": "PCRF-01",
+    "severity": "CRITICAL",
+    "type": "HIGH_CPU"
+  },
+  {
+    "alarm_id": "ALM-016",
+    "timestamp": "2026-10-06T16:06:00",
+    "node_id": "PGW-01",
+    "severity": "MAJOR",
+    "type": "GX_TIMEOUT"
+  },
+  {
+    "alarm_id": "ALM-017",
+    "timestamp": "2026-10-06T16:06:00",
+    "node_id": "PGW-01",
+    "severity": "MAJOR",
+    "type": "GY_TIMEOUT"
+  }
+]

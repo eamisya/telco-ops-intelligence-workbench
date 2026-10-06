@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telco-Ops Intelligence Workbench</title>
+    <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+    <nav>
+        <a onclick="App.renderOverview()">Overview</a>
+        <a onclick="App.renderIncident()">Incident</a>
+        <a onclick="App.renderRCA()">RCA</a>
+        <a onclick="App.renderRecommendation()">AI Recommendation</a>
+        <a onclick="App.renderArchitecture()">Architecture</a>
+    </nav>
+    <div id="content"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/rca.js"></script>
+    <script src="js/ai-reasoning.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

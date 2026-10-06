@@ -1,0 +1,135 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "incident_id": "INC-20261006-001",
+    "description": "PGW-02 CPU utilization reached 92.4%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-002",
+    "incident_id": "INC-20261006-001",
+    "description": "Latency increased by 42%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-003",
+    "incident_id": "INC-20261006-001",
+    "description": "Configuration change CHG-099 executed prior to incident",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-004",
+    "incident_id": "INC-20261006-002",
+    "description": "MME-01 CPU utilization at 98.1%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-005",
+    "incident_id": "INC-20261006-002",
+    "description": "S1AP Message Rate spike detected (45k/sec)",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-006",
+    "incident_id": "INC-20261006-002",
+    "description": "Software patch CHG-102 may have altered signaling handling",
+    "type": "INFERED",
+    "completeness": 75
+  },
+  {
+    "evidence_id": "EV-007",
+    "incident_id": "INC-20261006-003",
+    "description": "MSS-01 SS7 Link Down alarm received",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-008",
+    "incident_id": "INC-20261006-003",
+    "description": "ASR dropped to 32.1%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-009",
+    "incident_id": "INC-20261006-003",
+    "description": "Routing update CHG-105 caused link failure",
+    "type": "INFERED",
+    "completeness": 85
+  },
+  {
+    "evidence_id": "EV-010",
+    "incident_id": "INC-20261006-004",
+    "description": "HLR-01 DB Sync Failure alarm",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-011",
+    "incident_id": "INC-20261006-004",
+    "description": "Authentication success rate plummeted to 14.2%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-012",
+    "incident_id": "INC-20261006-004",
+    "description": "Diameter & MAP timeouts correlated across MME and MSS",
+    "type": "INFERED",
+    "completeness": 90
+  },
+  {
+    "evidence_id": "EV-013",
+    "incident_id": "INC-20261006-005",
+    "description": "PE-RTR-04 reported Link Failure and BGP session drops",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-014",
+    "incident_id": "INC-20261006-005",
+    "description": "RAN-AGG-02 lost connectivity to 14 eNodeBs simultaneously",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-015",
+    "incident_id": "INC-20261006-005",
+    "description": "Scheduled civil works (CHG-115) in the eastern fiber ring may have caused a fiber cut",
+    "type": "INFERED",
+    "completeness": 80
+  },
+  {
+    "evidence_id": "EV-016",
+    "incident_id": "INC-20261006-006",
+    "description": "DRA-01 dropping 15.4% of Diameter messages",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-017",
+    "incident_id": "INC-20261006-006",
+    "description": "PGW-01 reporting multiple Gx and Gy timeouts during session creation",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-018",
+    "incident_id": "INC-20261006-006",
+    "description": "PCRF-01 CPU utilization highly saturated at 96.5%",
+    "type": "OBSERVED",
+    "completeness": 100
+  },
+  {
+    "evidence_id": "EV-019",
+    "incident_id": "INC-20261006-006",
+    "description": "Complex Policy Rule Update (CHG-120) deployed recently, possibly causing expensive DB queries and PCRF overload",
+    "type": "INFERED",
+    "completeness": 85
+  }
+]

@@ -1,4 +1,4 @@
-# Telco-Ops Intelligence Workbench
+# Telco-Ops Intelligence Workbench 🗼🤖
 
 An MVP demonstrating an end-to-end intelligence flow for Telecommunications Operations, moving from raw network anomaly detection to deterministic Root Cause Analysis (RCA) and AI-assisted recommendations. 
 
@@ -6,14 +6,14 @@ This project is built as a **local-first, frontend-only Single Page Application 
 
 ---
 
-## The Portfolio Narrative
+## 🎯 The Portfolio Narrative
 
 This workbench proves a critical architectural pipeline for modern NOCs/SREs:
 **OBSERVE** (Telemetry) → **UNDERSTAND** (Correlation) → **REASON** (RCA) → **DECIDE** (AI Recommendation) → **ACT** (Human Approval).
 
 It bridges the gap between traditional Mobile Core / Transport operations and modern Data & AI platforms.
 
-## Key Features & Scenarios
+## 🚀 Key Features & Scenarios
 
 The MVP comes pre-injected with 6 highly realistic, data-driven Telco outage scenarios:
 1. **PGW Resource Saturation**: S/P Gateway CPU pressure causing Mobile Data latency.
@@ -23,7 +23,7 @@ The MVP comes pre-injected with 6 highly realistic, data-driven Telco outage sce
 5. **IP MPLS Fiber Cut**: Transport failure isolating RAN Aggregation nodes and eNodeBs.
 6. **DRA Congestion**: PCRF overload from complex policy updates leading to Gx/Gy interface timeouts.
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 telco-ops-intelligence-workbench/
@@ -56,7 +56,7 @@ telco-ops-intelligence-workbench/
     └── skills-and-implementation.md # Skills demonstrated
 ```
 
-## How to Run Locally
+## 🛠️ How to Run Locally
 
 Because this is a vanilla JS application with embedded data to bypass local CORS restrictions, running it is incredibly simple:
 
@@ -66,7 +66,7 @@ Because this is a vanilla JS application with embedded data to bypass local CORS
 
 ---
 
-## Bonus: AI Simulation Prompt for Incident Reporting
+## 🤖 Bonus: AI Simulation Prompt for Incident Reporting
 
 To take this MVP to the next level during a presentation, you can demonstrate how the deterministic RCA output feeds into a Large Language Model (LLM) to automatically generate an **Executive Technical Incident Report Slide Deck**.
 
